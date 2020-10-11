@@ -1,4 +1,4 @@
-Bare minimum, absolute, must-have computer science knowledge.
+Study notes and short implementations of the bare minimum, absolute, must-have computer science knowledge. The code is written in Python3.
 
 # Overview
 
