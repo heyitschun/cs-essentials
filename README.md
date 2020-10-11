@@ -11,5 +11,5 @@ Bare minimum, absolute, must-have computer science knowledge.
 | Vectors              | Quick sort           | Memory management         |
 | Hash tables          |                      |                           |
 
-* List taken from *Cracking The Coding Interview (2015)* by Gayle Laakmann McDowell.
+* List taken from *Cracking The Coding Interview* by Gayle Laakmann McDowell (2015).
 
