@@ -16,5 +16,5 @@ The SLL itself could be represented in a class object or interface that implemen
 
 # Read more
 
-[Open Data Structures](https://opendatastructures.org/ods-java/3_1_SLList_Singly_Linked_Li.html)
-[Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
+* [Open Data Structures](https://opendatastructures.org/ods-java/3_1_SLList_Singly_Linked_Li.html)
+* [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
