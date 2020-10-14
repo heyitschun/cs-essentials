@@ -6,7 +6,7 @@ Big O is about the expression of runtime *scaling*, more so than anything. Highl
 
 Big O notation can also be used to describe the amount of memory allocation the algorithm requires.
 
-# Read More
+# Read more
 
 - [Open Data Structures](https://opendatastructures.org/ods-python/1_3_Mathematical_Background.html#950)
 - [Wikipedia](https://en.wikipedia.org/wiki/Time_complexity)
