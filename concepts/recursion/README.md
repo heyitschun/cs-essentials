@@ -16,7 +16,7 @@ factorial(n)
 
 Recursion is a competitor to iteration; whatever can be done recursively, can be done iteratively and vice versa. One could be given the preference over the other, but this depends on the problem and the programming language. 
 
-In languages that favor iterative looping structures (e.g. C, Java), there is significantly time and space cost associated with recursion. This is because there is an overhead to managing the stack and function calls are relatively slow. In functional languages (e.g. Haskell), function calls are fast, so the difference between a recursive approach and an iterative approach is less noticeable. 
+In languages that favor iterative looping structures (e.g. C, Java), there is significant time and space cost associated with recursion. This is because there is an overhead to managing the stack and function calls are relatively slow. In functional languages (e.g. Haskell), function calls are fast, so the difference between a recursive approach and an iterative approach is less noticeable. 
 
 ## Space
 
