@@ -2,14 +2,14 @@ Study notes and short implementations of the bare minimum, absolute, must-have c
 
 # Overview
 
-| Data Structures                 | Algorithms                    | Concepts                      |
-| ---------------                 | ----------                    | --------                      |
-| :x: Trees, tries, graphs        | :x: Breadth-first search      | :x: Bit manipilation          |
-| :heavy_check_mark: Linked lists | :x: Depth-first search        | :heavy_check_mark: Recursion  |
-| :x: Stacks and queues           | :x: Binary search             | :x: Dynamic programming       |
-| :x: Heaps                       | :heavy_check_mark: Merge sort | :x: Time and space complexity |
-| :x: Vectors                     | :heavy_check_mark: Quick sort | :x: Memory management         |
-| :x: Hash tables                 |                               |                               |
+| Data Structures          | Algorithms               | Concepts                       |
+| ---------------          | ----------               | --------                       |
+| :x: Trees, tries, graphs | :x: Breadth-first search | :x: Bit manipilation           |
+| :ok: Linked lists        | :x: Depth-first search   | :ok: Recursion                 |
+| :x: Stacks and queues    | :x: Binary search        | :x: Dynamic programming        |
+| :x: Heaps                | :ok: Merge sort          | :ok: Time and space complexity |
+| :x: Vectors              | :ok: Quick sort          | :x: Memory management          |
+| :ok: Hash tables         |                          |                                |
 
 # What are algorithms and data structures?
 

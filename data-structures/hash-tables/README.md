@@ -31,6 +31,12 @@ An important value to consider with collision resolution schemes is the *load fa
 
 **Open-addressing** probes sequences to look through the table for an open spot to store a key-value pair in. It is space-efficient, but its performance degrades quickly as the load factor approaches one.
 
+# Hash Tables
+
+A hash table stores key-value pairs by the hash value of the key. Hash table keys must have a `hash()` function returning integer values and an equality comparison operation to test for collision.
+
+Other than that, for a hash table to work, it must implement some methods to perform mutations on the table and its values, such as `set`, `get` and `delete`.
+
 # References
 
 * *Go Data Structures and Algorithms* by Christopher Fox (2018)
