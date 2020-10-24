@@ -1,6 +1,6 @@
 Trees are the basis for several important data types and structures. Several sorting algorithms are based on trees. So it is important to understand the basics of them.
 
-A **tree** is a special type of graph. It is a graph with a distinguished node root `r`, such that there is exactly one simple path between each vertex in the tree and `r`.
+A **tree** is a special type of graph. It is a graph with a distinguished node root `r`, such that there is exactly one simple path between each node in the tree and `r`.
 
 ![Tree](https://computersciencewiki.org/images/5/5f/Binary_tree.svg.png)
 
@@ -15,7 +15,7 @@ In the tree above, the root `r` is labeled as `2`. It has two child nodes labele
 - *Internal node*--A node with children. Also known as a non-terminal leaf or node.
 - *Sub-tree*--A graph consisting of a node in a tree, all its descendants and the edges connecting them.
 - *Forest*--A graph consisting of several trees.
-- *Level*--Represents the number of edges in the path from the vertex to the root.
+- *Level*--Represents the number of edges in the path from the node to the root.
 - *Height*--The maximum level in the tree.
 
 Tree can be ordered. This means that the order of the children of each node is specific. These trees are not usually drawn in a distinct way. Other mechanisms must be used to specify whether a tree is ordered.
