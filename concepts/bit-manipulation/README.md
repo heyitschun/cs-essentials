@@ -59,3 +59,29 @@ If the width of the register (usually 32 or 64) is larger than the number of bit
 - Little-endian ordering: a right shift by 8 positions decreases the byte address by 1
 - Big-endian ordering: a left shift by 8 positions decreases the byte address by 1
 - Big-endian ordering: a right shift by 8 positions decreases the byte address by 1
+
+## Arithmetic shift
+
+In an **arithmetic shift**, the bits that are shifted out of either end are discarded. In a left arithmetic shift, zeros are shifted in on the right; in a right arithmetic shift, the sign bit is shifted on the left, thus preserving the sign of the operand.
+
+```
+    00010111 (dec 23) LEFT-SHIFT
+  = 00101110 (dec 46)
+```
+
+In the above example, the left-most digit was shifted past the end of the register. A new `0` was shifted into the right-most position.
+
+```
+    10010111 (dec -23) RIGHT-SHIFT
+  = 11001011 (dec -11)
+```
+
+In the above example, the right-most `1` was shifted out. A new `1` was copied into the left-most position, preserving the sign of the number.
+
+A left arithmetic shift by `n` is equivalent to multiplying by `2^n` (assuming the number does not overflow). A right arithmetic shift by `n` of a [two's complement](https://en.wikipedia.org/wiki/Two%27s_complement) value is the equivalent of dividing by `2^n` and rounding toward negative infinity. If the binary number is treated as [one's complement](https://en.wikipedia.org/wiki/Ones%27_complement), then the same right-shift operation results in division by `2^n` and rounding towards zero.
+
+## Logical shift
+
+In a **logical shift**, the zeros are shifted in to replace the discarded bits. So logical and arithmetic left-shifts lead to the same results.
+
+A logical right-shift is ideal for unsigned binary numbers, because it inserts zeros in to the most significant bits. Arithmetic right-shifts are better for signed two's complement binary representations.
