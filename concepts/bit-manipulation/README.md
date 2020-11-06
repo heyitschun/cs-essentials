@@ -85,3 +85,7 @@ A left arithmetic shift by `n` is equivalent to multiplying by `2^n` (assuming t
 In a **logical shift**, the zeros are shifted in to replace the discarded bits. So logical and arithmetic left-shifts lead to the same results.
 
 A logical right-shift is ideal for unsigned binary numbers, because it inserts zeros in to the most significant bits. Arithmetic right-shifts are better for signed two's complement binary representations.
+
+## Circular shift
+
+In a *rotate* operation, the bits are rotated as if the left and right ends of the register were joined. This is useful for retaining all existing bits. Its usage is found most often in cryptography.

@@ -4,7 +4,7 @@ Study notes and short implementations of the bare minimum, absolute, must-have c
 
 | Data Structures          | Algorithms                | Concepts                       |
 | ---------------          | ----------                | --------                       |
-| :x: Trees, tries, graphs | :ok: Breadth-first search | :x: Bit manipilation           |
+| :x: Trees, tries, graphs | :ok: Breadth-first search | :ok: Bit manipilation          |
 | :ok: Linked lists        | :x: Depth-first search    | :ok: Recursion                 |
 | :x: Stacks and queues    | :ok: Binary search        | :x: Dynamic programming        |
 | :ok: Heaps               | :ok: Merge sort           | :ok: Time and space complexity |
