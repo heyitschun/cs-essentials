@@ -8,7 +8,7 @@ Study notes and short implementations of the bare minimum, absolute, must-have c
 | :ok: Linked lists        | :x: Depth-first search    | :ok: Recursion                 |
 | :x: Stacks and queues    | :ok: Binary search        | :x: Dynamic programming        |
 | :ok: Heaps               | :ok: Merge sort           | :ok: Time and space complexity |
-| :x: Vectors              | :ok: Quick sort           | :x: Memory management          |
+| :ok: Vectors             | :ok: Quick sort           | :x: Memory management          |
 | :ok: Hash tables         |                           |                                |
 
 # What are algorithms and data structures?
