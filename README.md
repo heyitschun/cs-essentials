@@ -6,7 +6,7 @@ Study notes and short implementations of the bare minimum, absolute, must-have c
 | ---------------          | ----------                | --------                       |
 | :x: Trees, tries, graphs | :ok: Breadth-first search | :ok: Bit manipilation          |
 | :ok: Linked lists        | :x: Depth-first search    | :ok: Recursion                 |
-| :x: Stacks and queues    | :ok: Binary search        | :x: Dynamic programming        |
+| :ok: Stacks and queues   | :ok: Binary search        | :ok: Dynamic programming       |
 | :ok: Heaps               | :ok: Merge sort           | :ok: Time and space complexity |
 | :ok: Vectors             | :ok: Quick sort           | :x: Memory management          |
 | :ok: Hash tables         |                           |                                |
