@@ -21,5 +21,6 @@ A **data structure** is an arrangement of data in a computer's memory to represe
 
 # References
 * *Cracking The Coding Interview* by Gayle Laakmann McDowell (2015)
+* *Data Structures and Algorithms in Python* by Michael Goodrich, Roberto Tamassia and Michael Goldwasser (2013)
 * *Go Data Structures and Algorthms* by Christopher Fox (2018)
 * *Open Data Structures*

@@ -6,7 +6,32 @@ Big O is about the expression of runtime *scaling*, more so than anything. Highl
 
 Big O notation can also be used to describe the amount of memory allocation the algorithm requires.
 
+# Seven common functions
+
+There are seven functions that are most commonly used in algorithms.
+
+## Constant functions
+
+The simplest function is a **constant function**.
+
+```
+f(n) -> c
+```
+
+In this constant functions, it does not matter what the parameter `n` is; the function call will always be equal to the constant value of `c`. The most fundamental constant function is `f(n) = 1`.
+
+## Logarithmic functions
+
+The **logarithmic function** is defined as:
+
+```
+f(n) -> log_b_n
+```
+
+where `b` is the *base* of the log and greater than 1. In computer science, the most common log base is 2 as computers store integers in binary notation. Is is so common, that `log 2 n` is simply written as `log n`
+
 # Read more
 
+- [Data Structures and Algorithms in Python](https://www.amazon.nl/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/ref=sr_1_1?__mk_nl_NL=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1D52V3F27RXYV&dchild=1&keywords=data+structures+and+algorithms+in+python&qid=1605781127&sprefix=data++struct%2Caps%2C151&sr=8-1)
 - [Open Data Structures](https://opendatastructures.org/ods-python/1_3_Mathematical_Background.html#950)
 - [Wikipedia](https://en.wikipedia.org/wiki/Time_complexity)
