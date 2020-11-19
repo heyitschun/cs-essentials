@@ -18,7 +18,7 @@ The simplest function is a **constant function**.
 f(n) -> c
 ```
 
-In this constant functions, it does not matter what the parameter `n` is; the function call will always be equal to the constant value of `c`. The most fundamental constant function is `f(n) = 1`.
+In this constant function, it does not matter what the parameter `n` is; the function call will always be equal to the constant value of `c`. The most fundamental constant function is `f(n) = 1`.
 
 ## Logarithmic functions
 
@@ -29,6 +29,16 @@ f(n) -> log_b_n
 ```
 
 where `b` is the *base* of the log and greater than 1. In computer science, the most common log base is 2 as computers store integers in binary notation. Is is so common, that `log 2 n` is simply written as `log n`
+
+## Linear functions
+
+The **linear function** is another simple function:
+
+```
+f(n) -> n
+```
+
+Linear functions appear in algorithms any time there is a basic operation for each of `n` elements (think iterating over arrays). It represents the best running in any algorithm thata processes each of `n` objecsts that are not already in memory (since reading in `n` objects aready requires that many operations).
 
 # Read more
 
