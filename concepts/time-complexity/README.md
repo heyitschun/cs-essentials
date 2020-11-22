@@ -40,6 +40,55 @@ f(n) -> n
 
 Linear functions appear in algorithms any time there is a basic operation for each of `n` elements (think iterating over arrays). It represents the best running in any algorithm thata processes each of `n` objecsts that are not already in memory (since reading in `n` objects aready requires that many operations).
 
+## N log N functions
+
+The **n log n function** assigns to an input `n` the value of `n` times the logarithm base-two of `n`. 
+
+```
+f(n) -> n log n
+```
+
+The function grows more rapidly than a linear function but not as rapidly as a quadratic function. Sorting algorithms are often good examples of functions with a runtime of `n log n`.
+
+## Quadratic functions
+
+A function that grows rather rapidly is the **quadratic function**.
+
+```
+f(n) -> n^2
+```
+
+That is, given an input `n`, the function returns `n` squared. Quadratic functions appear in time complexity analyses when there are nested loops.
+
+## Cubic functions and other polynomials
+
+Another functions that is the power of the input is the **cubic function**.
+
+```
+f(n) -> n^3
+```
+
+While this functions will grow even faster than the quadratic function, it appears much less frequently.
+
+## Exponential functions
+
+An **exponential function** looks like this:
+
+```
+f(n) -> b^n
+```
+
+The *positive constant* `b` is called the base and parameter `n` is the *exponent*. Similar to the logarithmic function, the most common base for the exponential function is `b=2`.
+
+## Comparison
+
+| constant | logarithm | linear | n-log-n   | quadratic | cubic | exponential |
+| `1`      | `log n`   | `n`    | `n log n` | `n^2`     | `n^3` | `a^n`       |
+
+In an ideal world, data structure operations have a logarithm or constant runtime and algorithms have a linear or N log N runtime. Algorithms with quadratic or cubic runtimes are impractical and functions with exponential runtimes should be avoided for all but the smallest inputs.
+
+![Time compexity comparison](https://upload.wikimedia.org/wikipedia/commons/7/7e/Comparison_computational_complexity.svg)
+
 # Read more
 
 - [Data Structures and Algorithms in Python](https://www.amazon.nl/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/ref=sr_1_1?__mk_nl_NL=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1D52V3F27RXYV&dchild=1&keywords=data+structures+and+algorithms+in+python&qid=1605781127&sprefix=data++struct%2Caps%2C151&sr=8-1)
