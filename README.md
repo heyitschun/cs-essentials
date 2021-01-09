@@ -20,6 +20,7 @@ For an algorithm to be viable, it must be able to be broken down into simple and
 A **data structure** is an arrangement of data in a computer's memory to represent values of a set of values of an abstract data type.
 
 # References
+* *A Common Sense Guide to Data Structures and Algorithms* by Jay Wengrow (2020)
 * *Cracking The Coding Interview* by Gayle Laakmann McDowell (2015)
 * *Data Structures and Algorithms in Python* by Michael Goodrich, Roberto Tamassia and Michael Goldwasser (2013)
 * *Go Data Structures and Algorthms* by Christopher Fox (2018)
