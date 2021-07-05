@@ -1,7 +1,6 @@
 package factorial
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -20,8 +19,7 @@ var tests = []testpair{
 func TestFactorial(t *testing.T) {
 	for _, pair := range tests {
 		f := Factorial(pair.n)
-		fmt.Println(pair.n, "->", f)
-		if f != pair.n {
+		if f != pair.answer {
 			t.Error(
 				"For", pair.n,
 				"expected", pair.answer,
