@@ -1,4 +1,4 @@
-Study notes and short implementations of the bare minimum, absolute, must-have computer science knowledge. The code is written in Go or Python3.
+Study notes and short implementations of the bare minimum, absolute, must-have computer science knowledge. The code examples are written in Go.
 
 # Overview
 

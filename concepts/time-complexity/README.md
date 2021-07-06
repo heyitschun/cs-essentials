@@ -2,7 +2,7 @@ Time complexity is the computational complexity that describes the amount of tim
 
 Runtimes are described with the big O notation and is not limited to time. Common runtimes are `O(n)`, `O(log n)`, `O(n log n)` and `O(n**2)`. But this list is not exhaustive and a runtime can have multiple variables.
 
-Big O is about the expression of runtime *scaling*, more so than anything. Highly precise notation is actually not the point of using big O, which is why constants and non-dominant terms can be dropped in big O notation. It's all about scaling.
+Big O is about the expression of runtime *scaling*, more so than anything. Highly precise notation is actually not the point of using big O, which is why constants and non-dominant terms can be dropped in big O notation. It's all about scaling: how will an algorithm's performance change as the data increases?
 
 Big O notation can also be used to describe the amount of memory allocation the algorithm requires.
 
@@ -38,7 +38,7 @@ The **linear function** is another simple function:
 f(n) -> n
 ```
 
-Linear functions appear in algorithms any time there is a basic operation for each of `n` elements (think iterating over arrays). It represents the best running in any algorithm thata processes each of `n` objecsts that are not already in memory (since reading in `n` objects aready requires that many operations).
+Linear functions appear in algorithms any time there is a basic operation for each of `n` elements (think iterating over arrays). It represents the best run in any algorithm that processes each of `n` objects that are not already in memory (since reading in `n` objects aready requires that many operations).
 
 ## N log N functions
 
@@ -68,7 +68,7 @@ Another functions that is the power of the input is the **cubic function**.
 f(n) -> n^3
 ```
 
-While this functions will grow even faster than the quadratic function, it appears much less frequently.
+While this function will grow even faster than the quadratic function, it appears much less frequently.
 
 ## Exponential functions
 
