@@ -37,6 +37,16 @@ A hash table stores key-value pairs by the hash value of the key. Hash table key
 
 Other than that, for a hash table to work, it must implement some methods to perform mutations on the table and its values, such as `set`, `get` and `delete`.
 
+# Performance
+
+Ultimately, a hash table's performance depends on three factors:
+
+1. Amount of data being stored
+2. Number of cells available
+    - There must be a balance between avoiding collisions and memory consumption
+3. Hash function used
+    - A good hash function distributes its data across *all* available cells
+
 # References
 
 * *Go Data Structures and Algorithms* by Christopher Fox (2018)
