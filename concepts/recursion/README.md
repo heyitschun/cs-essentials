@@ -10,6 +10,8 @@ factorial(n)
     }
 ```
 
+In recursion terminology, the case in which the function will stop recursing is known as the *base case*. Every recursive function needs a base case to prevent it from calling itself infinitely. Recursive functions work by pushing incomplete functions on to the *call stack*. If the program attempts to add an infinite amount of functions to the call stack, the computer will eventually run out of memory, causing a *stack overflow*.
+
 # Performance
 
 ## Speed

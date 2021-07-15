@@ -4,7 +4,7 @@ A **queue** is an abstract data type (ADT) that holds an ordered sequence of ele
 
 # Common methods
 
-- `enter(x)`--Add element `x` to the queue.
-- `leave()`--Remove the element at the front of the queue, provided that the queue is not empty.
+- `enqueue(x)`--Add element `x` to the queue.
+- `dequeue()`--Remove the element at the front of the queue, provided that the queue is not empty.
 - `empty()`--Check if the queue contains any elements.
-- `front()`--Return the front element of the queue without removing it, provided that the queue is not empty.
+- `read()`--Return the front element of the queue without removing it, provided that the queue is not empty.

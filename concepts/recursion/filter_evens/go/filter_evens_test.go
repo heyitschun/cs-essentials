@@ -1,6 +1,9 @@
 package filter
 
-import "testing"
+import (
+	"reflect"
+	"testing"
+)
 
 var feTestCases = []struct {
 	array  []int
@@ -15,8 +18,8 @@ var feTestCases = []struct {
 func TestFilterEvens(t *testing.T) {
 	for _, tc := range feTestCases {
 		ans := FilterEvens(tc.array)
-
-		if ans != tc.expect {
+		equal := reflect.DeepEqual(ans, tc.expect)
+		if !equal {
 			t.Errorf("FilterEvens(%v) returns %v; expected %v",
 				tc.array,
 				ans,
