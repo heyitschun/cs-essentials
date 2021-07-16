@@ -28,6 +28,8 @@ quicksort(a, i, n)
 
 The general approach to quicksort is to choose a random element `x` as the pivot, scan left to find an element greater than `x`, scan right to find an element less than `x`, then swap these elements so that they are on the correct side of `x`. So instead of making copies of subarrays that are sorted, quicksort sorts the subarray in-place.
 
+For some sorting algorithms, the best case is when the array comes already sorted. Interestingly, quicksort's worst scenario is when the input array is sorted (either ascending or descending)! The best case for quicksort is if the pivot point ends up smack in the middle on each after each sub-partition, because the algorithm involves recursion this will lead to fewer sub-partitions; thus, fewer steps.
+
 # Time complexity
 
-The best case complexity of quicksort is `O(n log n)`. In the worst case, however, quicksort can actually become slow, performing `O(n^2)` comparisons.
+The average and best case complexity of quicksort is `O(n log n)`. In the worst case, however, quicksort can actually become slow, performing `O(n^2)` comparisons.
