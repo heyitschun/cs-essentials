@@ -6,13 +6,13 @@ The structure of a linked list consists of nodes, which collectively represent a
 
 Nodes in a singly linked list (SLL) store a data value and a reference to the next node in the sequence:
 
-```python
+```text
 class Node:
     val
     nxt
 ```
 
-The SLL itself could be represented in a class object or interface that implement functions on the elements.
+The SLL itself could be represented in a class object or interface that implement functions on the elements. SLL's data can be spread throughout the computer's memory. An array, by contrast, needs to find an entire block of contiguous memory slots to store its data.
 
 # Read more
 
