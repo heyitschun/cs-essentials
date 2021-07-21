@@ -90,6 +90,7 @@ func (ll *LinkedList) Insert(i int, val rune) error {
 }
 
 // Delete takes an index and deletes the node at the given index.
+// To delete the last element, use DeleteLast.
 // Returns an error.
 func (ll *LinkedList) DeleteAt(i int) error {
 	if i == 0 {
